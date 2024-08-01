@@ -45,9 +45,9 @@ Ensure you have the following software installed:
 
 To start the project, run the following command:
 
-    ```bash
+```bash
     npm start
-    ```
+   ```
 
 This will start the server, and you can access the chat application in your web browser.
 
@@ -74,4 +74,4 @@ For any questions or inquiries, please contact `sandeshsb9`.
 
 ---
 
-Thank you for using `chattingle`!
+Thank you for using `chattingle`!😊😊😊🤞🤞🤞

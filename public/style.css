@@ -102,10 +102,13 @@ body {
   font-size: 3rem;
   border: 1px solid #cccccc;
   cursor: pointer;
+  border-radius: 100px;
 }
+
 #send {
   color: white;
 }
+
 .btn:focus {
   outline: none;
 }
@@ -132,6 +135,7 @@ body {
 #stop {
   color: white;
 }
+
 .textarea {
   height: 100%;
   resize: none;
@@ -153,6 +157,7 @@ body {
   font-weight: 700;
 }
 
+/* Media Queries for Responsiveness */
 @media only screen and (max-width: 56.25em) {
   /* 900px */
   .description {
@@ -163,12 +168,28 @@ body {
   .online {
     font-size: 2rem;
   }
+
+  .form {
+    grid-template-columns: 10rem 1fr 10rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 48.125em) {
   /* 770px */
   .online {
     display: none;
+  }
+
+  .description {
+    margin-left: 4rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
   }
 }
 
@@ -181,12 +202,47 @@ body {
   .btn {
     font-size: 1.4rem;
   }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .description {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  /* 600px */
+  .conversation {
+    height: 85%;
+    font-size: 1.8rem;
+  }
+
+  .form {
+    height: 15%;
+    grid-template-columns: 8rem 1fr 8rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .logo {
+    height: 6rem;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
   /* 500px */
   .conversation {
     height: 90%;
+    font-size: 1.6rem;
   }
 
   .form {
@@ -197,18 +253,23 @@ body {
   .btn {
     font-size: 1.2rem;
   }
-}
 
-@media only screen and (max-width: 32.5em) {
-  /* 520px */
-  .description {
-    display: none;
+  .logo {
+    height: 5rem;
   }
 }
 
 @media only screen and (max-width: 28.125em) {
   /* 450px */
-  .logo {
-    height: 12rem;
+  .conversation {
+    font-size: 1.4rem;
+  }
+
+  .form {
+    grid-template-columns: 5rem 1fr 5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
   }
 }

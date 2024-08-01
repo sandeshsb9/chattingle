@@ -2,7 +2,7 @@
 
 Welcome to the `chattingle` project repository! This is a public repository for the `chattingle` project, maintained by `sandeshsb9`.
 
-## result of project..
+## Result of project❤️😉
 
 ![Chattingle Screenshot](https://github.com/sandeshsb9/chattingle/blob/master/public/img/img332.png)
 

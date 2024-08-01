@@ -2,15 +2,9 @@
 
 Welcome to the `chattingle` project repository! This is a public repository for the `chattingle` project, maintained by `sandeshsb9`.
 
-## Table of Contents
+## result of project..
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+![Chattingle Screenshot](https://github.com/sandeshsb9/chattingle/blob/master/public/img/img332.png)
 
 ## Overview
 
@@ -46,8 +40,6 @@ Ensure you have the following software installed:
     ```bash
     npm install
     ```
-
-![Chattingle Screenshot](https://github.com/sandeshsb9/chattingle/blob/master/public/img/img332.png)
 
 ### Usage
 

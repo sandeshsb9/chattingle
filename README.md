@@ -74,4 +74,4 @@ For any questions or inquiries, please contact `sandeshsb9`.
 
 ---
 
-Thank you for using `chattingle`!😊😊😊🤞🤞🤞
+Thank you for using `chattingle`!😊😊🤞🤞
